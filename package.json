@@ -1,0 +1,36 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "To learn",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "sana"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShdwDevv/ReactJS.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Arshath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShdwDevv/ReactJS/issues"
+  },
+  "homepage": "https://github.com/ShdwDevv/ReactJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

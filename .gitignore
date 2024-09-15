@@ -1,0 +1,42 @@
+# Node modules - dependencies installed via npm
+node_modules/
+
+# Parcel cache directory - where Parcel stores its cache files
+.cache/
+
+# Parcel build directory - output from the bundler
+dist/
+
+# Lock files for package managers (npm/yarn)
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables file
+.env
+.env.local
+.env.*.local
+
+# Editor-specific directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS-specific files
+.DS_Store
+
+# Optional npm cache directory
+.npm/
+
+# Ignore build results from 'parcel build'
+*.parcel-cache
+
+# Ignore the compiled `coverage/` directory when running tests
+coverage/

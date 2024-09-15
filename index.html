@@ -7,19 +7,6 @@
 </head>
 <body>
     <div id="root">Not Rendered </div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-        const header1 = React.createElement("h1",{id:"title"},"Header 1");
-        const header2 = React.createElement("h2",{id:"sub-title1"},"Header 2");
-        const header3 = React.createElement("h3",{id:"sub-title2"},"Header 3");
-        const header4 = React.createElement("h4",{id:"sub-title3"},"Header 4");
-        const header5 = React.createElement("h5",{id:"sub-title4"},"Header 5");
-        const header6 = React.createElement("h6",{id:"sub-title5"},"Header 6");
-        const container = React.createElement("div",{id:"container"},[header1,header2,header3,header4,header5,header6]);
-        console.log(header1); // It will print the object
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(container);
-    </script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
